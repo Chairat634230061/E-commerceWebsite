@@ -1,0 +1,509 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-ber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 58px;
+    margin: 15px;
+}
+
+.ber-menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.ber-menu li {
+    margin: 0 30px;
+}
+
+.ber-menu li a {
+    text-decoration: none;
+    color: #686868;
+}
+
+.ber-icon {
+    display: flex;
+    list-style: none;
+}
+
+.ber-icon li {
+    margin: 0 10px;
+}
+
+.ber-icon li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ber-icon img {
+    width: 25px; 
+    height: auto; 
+}
+
+/* ปรับสีพื้นหลังของช่องค้นหา */
+.ber-search {
+    padding: 10px;
+    width: 35%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* ปรับสไตล์ของช่องค้นหา */
+.search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.search img {
+    width: 25px; 
+    height: auto; 
+}
+/* ปรับสไตล์ของไอคอนค้นหา */
+.search i {
+    padding: 10px;
+    color: #888;
+}
+
+/* ปรับสไตล์ของช่องข้อมูลค้นหา */
+.search input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+}
+
+
+.ber-hero {
+    background-image: url(/img/model.png);
+    background-size: cover;
+    background-position: center;
+    font-family: "Abril Fatface", serif;
+}
+
+.shop-hero {
+    width: 100%;
+    height: 40rem;
+    padding: 5rem;
+    font-size: 2.3rem;
+}
+
+.shop-hero p {
+    font-size: 20px;
+    width: 50%;
+    color: #9b9a9b;
+}
+
+.shop-hero button {
+    background-color: black;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    
+}
+
+.button_shop {
+    margin: 10px;
+    padding: 10px;
+}
+
+.shop-hero a {
+    color: #c6c4c5;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+
+.hero_number{
+    display: flex; 
+    margin: 10px 30px;
+}
+
+.hero_number p {
+    font-size: 20px;
+    width: 100%;
+    color: #9b9a9b;
+}
+
+.ber2-button button{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    height: 50px;
+    width: 200px;
+}
+
+.ber2-button a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+
+.Brands,
+.Products,
+.Customers {
+    margin: 0 45px;
+    text-align: center;
+    border-right: 1px solid #ccc; /* เพิ่มเส้นแนวตั้ง */
+    padding-right: 50px; /* เพิ่มช่องว่างด้านขวาของเส้นแนวตั้ง */
+
+}
+
+/* ย้ายเส้นแนวตั้งไปไว้ที่ข้อความล่างสุด */
+.Customers {
+    border-right: none;
+}
+
+.shoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.NEW {
+    text-align: center;
+    height: 200px;
+    padding: 70px 0; 
+    font-size: 20px;
+}
+
+.t-shirt {
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.skinny{
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.checkered{
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.sleevet{
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.text-t_shirt {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.text-skinny {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-checkered{
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-sleeve {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.ber2-button{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.vertical {
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.collage {
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.Loose {
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.Faded {
+    background-color: #f0efed;
+    border-radius: 50px;
+}
+
+.text-vertical {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-collage {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-Loose {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-Faded {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+----------------------------------------
+.text-t_shirt p, 
+.text-skinny p, 
+.text-checkered p,
+.text-sleeve p,
+.text-vertical p, 
+.text-collage p, 
+.text-Loose p, 
+.text-Faded p {
+    font-weight: bold;
+}
+.text-t_shirt p {
+    font-weight: bold;
+}
+.ber4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ber_to_4 {
+    background-color: #f0f0f0;
+    width: 1300px;
+    height: 800px;
+    text-align: center;
+    padding: 70px; 
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.ber_img {
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.ber_img img {
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.OUR h1 {
+margin: 50px;
+font-size: 50px;
+}
+
+.box_chat {
+    display: flex;
+    justify-content: center;
+}
+
+.box_chat  samp {
+    font-size: 25px;
+    margin: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-family: "Abril Fatface", serif;
+}
+
+.box_chat  p {
+    font-size: 20px;
+    margin: 20px;
+    color: #949193;
+}
+
+.Sarah,
+.Alex,
+.James {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 50px ;
+    border: 2px solid #ddd;
+    height: 17rem;
+}
+
+.Sarah samp,
+.Alex samp,
+.James samp {
+    display: block; /* แสดง <samp> ในบรรทัดใหม่ */
+    margin-bottom: 20px; /* ขยับลงมาล่าง */
+}
+
+.Sarah-image,
+.Alex-image,
+.James-image {
+    padding-left: 20px; /* กำหนดระยะห่างด้านซ้ายของข้อความ */
+    background-image: url('img/accept.png'); /* กำหนดรูปภาพเป็น background */
+    background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+    background-position: left center; /* ตำแหน่งของรูปภาพ */
+    background-size: 16px; /* ขนาดของรูปภาพ */
+    display: inline-block; /* ให้สามารถกำหนดความกว้าง-ความสูงได้ */
+    vertical-align: middle; /* จัดให้อยู่กึ่งกลางตามแนวตั้ง */
+}
+
+.ber6 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    border-radius: 10px;
+    place-items: center; /* จัดให้ content อยู่ตรงกลางทั้งแนวนอนและตั้ง */
+}
+
+.ber6 h1 {
+    color: white;
+    width: 60%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ber6 .email {
+    margin: 5px;
+    width: 80%;
+
+}
+
+.ber6 button {
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    width: 80%;
+    height: 2.5rem;
+}
+.email {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.email img {
+    width: 25px; 
+    height: auto; 
+}
+/* ปรับสไตล์ของไอคอนค้นหา */
+.email i {
+    padding: 10px;
+    color: #888;
+}
+
+/* ปรับสไตล์ของช่องข้อมูลค้นหา */
+.email input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+}
+
+.ber-email {
+    width: 40%;
+    margin: 20px;
+}
+
+.ber7_icon {
+    display: flex;
+    margin: 10px;
+}
+
+.ber7_icon img {
+    width: 25px; 
+    height: auto; 
+    margin: 5px;
+}
+
+.ber7-logo img {
+    width: 170px; 
+    height: auto;
+}
+
+.top-ber7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.top-ber7 li {
+    list-style: none;
+    margin: 10px;
+}
+
+.top-ber7 li a {
+    color: #9b9a9b;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top-ber7 p {
+    color: #9b9a9b;
+    width: 70%;
+}
+
+.end_icon {
+    display: flex;
+    margin: 10px;
+}
+
+.end_icon img {
+    width: 40px; 
+    height: auto;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.end-ber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.end-ber p {
+    color: #9b9a9b;
+}
+
+.hr {
+    width: 80%; /* กำหนดความกว้างของ hr */
+    margin: 0 auto; /* ให้ hr อยู่ตรงกลางด้วยการกำหนด margin auto */
+    border-color: #e1dee1;
+}
